@@ -1,0 +1,23 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/Cellar/node/0.10.26/bin/node',
+1 verbose cli   '/Applications/Atom.app/Contents/Resources/app/apm/node_modules/atom-package-manager/node_modules/npm/bin/npm-cli.js',
+1 verbose cli   'version',
+1 verbose cli   '0.6.1',
+1 verbose cli   '-m',
+1 verbose cli   'Prepare %s release' ]
+2 info using npm@1.3.18
+3 info using node@v0.10.26
+4 error Error: Version not changed
+4 error     at /Applications/Atom.app/Contents/Resources/app/apm/node_modules/atom-package-manager/node_modules/npm/lib/version.js:59:45
+4 error     at fs.js:266:14
+4 error     at /Applications/Atom.app/Contents/Resources/app/apm/node_modules/atom-package-manager/node_modules/npm/node_modules/graceful-fs/graceful-fs.js:103:5
+4 error     at Object.oncomplete (fs.js:107:15)
+5 error If you need help, you may report this *entire* log,
+5 error including the npm and node versions, at:
+5 error     <http://github.com/isaacs/npm/issues>
+6 error System Darwin 13.0.0
+7 error command "/usr/local/Cellar/node/0.10.26/bin/node" "/Applications/Atom.app/Contents/Resources/app/apm/node_modules/atom-package-manager/node_modules/npm/bin/npm-cli.js" "version" "0.6.1" "-m" "Prepare %s release"
+8 error cwd /Users/ethan/Workspace/solarized-light-syntax-modified
+9 error node -v v0.10.26
+10 error npm -v 1.3.18
+11 verbose exit [ 1, true ]
