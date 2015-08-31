@@ -1,9 +1,9 @@
 {
-  "name": "solarized-light-syntax-modified",
+  "name": "solarized-light-syntax-modified-sh",
   "theme": "syntax",
   "version": "0.6.2",
   "description": "A modified light syntax theme using the solarized colors",
-  "repository": "https://github.com/eturk/solarized-light-syntax-modified",
+  "repository": "https://github.com/shubrich/solarized-light-syntax-modified.git",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"

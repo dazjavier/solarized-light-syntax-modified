@@ -31,8 +31,7 @@
   }
 
   .selection .region {
-    background-color: @base02;
-    color: @base3;
+    background-color: @selection;
   }
 
   .line-number.cursor-line-no-selection {
@@ -42,12 +41,11 @@
 
 .bracket-matcher {
   background-color: @base1;
-  opacity: 0.3;
+  opacity: 0.8;
 }
 
 .comment {
-  color: @base1;
-  font-style: italic;
+  color: @green;
 }
 
 .entity {
@@ -55,11 +53,11 @@
 }
 
 .keyword {
-  color: @green;
+  color: @magenta;
 }
 
 .storage.type {
-  color: @green;
+  color: @magenta;
 }
 
 .constant {
@@ -67,7 +65,7 @@
 
   &.numeric,
   &.boolean {
-    color: @cyan;
+    color: @blue;
   }
 }
 
@@ -93,7 +91,7 @@
 }
 
 .string {
-  color: @cyan;
+  color: @red;
 
   .constant.character.escape {
     color: @red;
